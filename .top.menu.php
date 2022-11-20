@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бренды", 
+		"brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Промокоды и скидки", 
+		"https://кнайфы.рф/red.php?red=https%3A%2F%2Fad.admitad.com%2Fg%2F17lxnyyakg5082102477c109c80522%2F%3Fsubid%3Ddostavka%26ulp%3Dhttps://www.nozhikov.ru/collection/tovary-so-skidkoy", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка и оплата", 
+		"https://кнайфы.рф/red.php?red=https%3A%2F%2Fad.admitad.com%2Fg%2F17lxnyyakg5082102477c109c80522%2F%3Fsubid%3Ddostavka%26ulp%3Dhttps://www.nozhikov.ru/page/dostavka-i-oplata", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"/blog/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

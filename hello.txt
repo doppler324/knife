@@ -1,0 +1,10 @@
+Array
+(
+    [LINK] => https://www.nozhikov.ru/product/nozh-vityaz-damask
+    [NAME] => ÐÐ¾Ð¶ ÐÐ¸ÑÑÐ·Ñ, ÑÑÐ°Ð»Ñ Ð´Ð°Ð¼Ð°ÑÐº, ÑÑÐºÐ¾ÑÑÑ Ð²ÐµÐ½Ð³Ðµ
+    [PROPERTY_VALUES] => Array
+        (
+            [URL_PRODUCT] => https://nozhikov.ru/product/nozh-vityaz-damask
+        )
+
+)
