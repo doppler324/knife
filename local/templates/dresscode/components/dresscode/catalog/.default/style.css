@@ -1,0 +1,18 @@
+#middleSlider{
+	margin-bottom: 24px;
+}
+
+.panel-click.selected{
+	pointer-events: none;
+}
+
+.items.productList{
+	margin-bottom: 24px;
+}
+
+.removeFromWishlist{
+	display: none;
+}
+#marketWidget{
+	margin-bottom:1rem;
+}

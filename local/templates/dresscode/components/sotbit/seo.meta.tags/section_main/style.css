@@ -1,0 +1,18 @@
+.detailTagsItems .detailTagsLink {
+    transition: all 0.2s ease-in-out;
+    display: block;
+    background-color: #2b2b2b;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #f3f3f3;
+}
+.detailTagsItems .detailTagsItem {
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+.detailTagsItems .detailTagsLink:hover {
+    background-color: #f0f0f0;
+}

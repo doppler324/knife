@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6aad1854-2149-4a17-bd98-62cbfc59a538" name="knife" url="https://xn--80asbm1b4b.xn--p1ai">
+        <fileTransfer rootFolder="/home/bauerd/web/xn--80asbm1b4b.xn--p1ai/public_html" accessType="SFTP" host="45.81.226.55" port="22" sshConfigId="eb0b7273-90df-4a0c-a59e-37549b10fab5" sshConfig="root@45.81.226.55:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
