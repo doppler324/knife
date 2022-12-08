@@ -118,15 +118,15 @@
 							<?if($arResult["CATALOG_AVAILABLE"] != "Y"):?>
 								<?//addCart button?>
 								<?if($arResult["CATALOG_SUBSCRIBE"] == "Y"):?>
-									<a onclick='ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '?subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart subscribe" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/subscribe.svg" alt="<?=GetMessage("SUBSCRIBE_LABEL")?>" class="icon">В корзину</span></a>
+									<a onclick='ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '&subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart subscribe" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/subscribe.svg" alt="<?=GetMessage("SUBSCRIBE_LABEL")?>" class="icon">В корзину</span></a>
 								<?else:?>
-									<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '?subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart disabled" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/incart.svg" alt="<?=GetMessage("ADDCART_LABEL")?>" class="icon">В корзину</span></a>
+									<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '&subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart disabled" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/incart.svg" alt="<?=GetMessage("ADDCART_LABEL")?>" class="icon">В корзину</span></a>
 								<?endif;?>
 							<?else:?>
-								<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '?subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/incart.svg" alt="<?=GetMessage("ADDCART_LABEL")?>" class="icon">В корзину</span></a>
+								<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '&subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/incart.svg" alt="<?=GetMessage("ADDCART_LABEL")?>" class="icon">В корзину</span></a>
 							<?endif;?>
 						<?else:?>
-							<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '?subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart disabled requestPrice" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/request.svg" alt="" class="icon">В корзину</span></a>
+							<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '&subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="addCart disabled requestPrice" data-id="<?=$arResult["ID"]?>"><span><img src="<?=SITE_TEMPLATE_PATH?>/images/request.svg" alt="" class="icon">В корзину</span></a>
 						<?endif;?>
 					</div>
 					<a href="<?=$arResult["DETAIL_PAGE_URL"]?>" class="btn-simple add-cart"><?=GetMessage("SEE_ON_PAGE")?></a>
@@ -134,7 +134,7 @@
 		    </div>
 			<div class="optional">
 				<div class="row">
-					<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '?subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="label" data-id="<?=$arResult["ID"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/images/fastBack.png" alt="" class="icon"><?=GetMessage("FASTBACK_LABEL")?></a>
+					<a onclick="ym(<?=$arTemplateSettings['TEMPLATE_METRICA_ID']?>,'reachGoal','<?=$arTemplateSettings['TEMPLATE_METRICA_ADD_CART']?>');" target="_blank" href="/red.php?red=<?=urlencode($arResult["PARTNER_LINK"] . '&subid=sect_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE'])?>" class="label" data-id="<?=$arResult["ID"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/images/fastBack.png" alt="" class="icon"><?=GetMessage("FASTBACK_LABEL")?></a>
 					<a href="#" class="addCompare label" data-id="<?=$arResult["ID"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/images/compare.png" alt="" class="icon"><?=GetMessage("COMPARE_LABEL")?></a>
 				</div>
 				<div class="row">

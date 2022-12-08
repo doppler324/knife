@@ -109,14 +109,14 @@
                     <? if ($arResult["CATALOG_AVAILABLE"] != "Y"): ?>
                         <? if ($arResult["CATALOG_SUBSCRIBE"] == "Y"): ?>
                             <a onclick="ym(21192229, 'reachGoal', 'CLICK_OFFER');" target="_blank"
-                               href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '?subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
+                               href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '&subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
                                class="addCart subscribe changeID changeQty changeCart" data-id="<?= $arResult["ID"] ?>"
                                data-quantity="<?= $arResult["EXTRA_SETTINGS"]["BASKET_STEP"] ?>"><span><img
                                             src="<?= SITE_TEMPLATE_PATH ?>/images/subscribe.png"
                                             alt="<?= GetMessage("SUBSCRIBE_LABEL") ?>" class="icon">Узнать скидку поставщика</span></a>
                         <? else: ?>
                             <a onclick="ym(21192229, 'reachGoal', 'CLICK_OFFER');" target="_blank"
-                               href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '?subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
+                               href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '&subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
                                class="addCart changeID changeQty changeCart disabled" data-id="<?= $arResult["ID"] ?>"
                                data-quantity="<?= $arResult["EXTRA_SETTINGS"]["BASKET_STEP"] ?>"><span><img
                                             src="<?= SITE_TEMPLATE_PATH ?>/images/incart.png"
@@ -124,7 +124,7 @@
                         <? endif; ?>
                     <? else: ?>
                         <a onclick="ym(21192229, 'reachGoal', 'CLICK_OFFER');" target="_blank"
-                           href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '?subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
+                           href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '&subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
                            class="addCart changeID changeQty changeCart" data-id="<?= $arResult["ID"] ?>"><span><img
                                         src="<?= SITE_TEMPLATE_PATH ?>/images/incart.png"
                                         alt="<?= GetMessage("ADDCART_LABEL") ?>"
@@ -132,7 +132,7 @@
                     <? endif; ?>
                 <? else: ?>
                     <a onclick="ym(21192229, 'reachGoal', 'CLICK_OFFER');" target="_blank"
-                       href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '?subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
+                       href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '&subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
                        class="addCart changeID changeQty changeCart"><span><img
                                     src="<?= SITE_TEMPLATE_PATH ?>/images/request.png"
                                     alt="<?= GetMessage("REQUEST_PRICE_BUTTON_LABEL") ?>" class="icon">Узнать скидку поставщика</span></a>
@@ -141,7 +141,7 @@
             </div>
             <div class="mobileFastBackContainer row columnRow">
                 <a onclick="ym(21192229, 'reachGoal', 'CLICK_OFFER');" target="_blank"
-                   href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '?subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
+                   href="/red.php?red=<?= urlencode($arResult["PARTNER_LINK"] . '&subid=elem_' . $arResult['ID'] . '&ulp=' . $arResult['PROPERTIES']['URL_PRODUCT']['VALUE']) ?>"
                    class="fastBack label changeID<? if (empty($arResult["PRICE"]) || $arResult["CATALOG_AVAILABLE"] != "Y"): ?> disabled<? endif; ?>"
                    data-id="<?= $arResult["ID"] ?>"><img src="<?= SITE_TEMPLATE_PATH ?>/images/fastBack.png"
                                                          alt="<?= GetMessage("FASTBACK_LABEL") ?>" class="icon">Купить в 1 клик</a>
